@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main{
+	public static void main(String[] args) {
+	    Scanner scan = new Scanner(System.in);
+	    double raio;
+	    double area,pi = 3.14;
+	    System.out.println("Digite a área do raio: ");
+	    raio = scan.nextDouble();
+	    area = pi * Math.pow(raio,2);
+	    System.out.println(area);
+	    
+	}
+}
